@@ -9,8 +9,11 @@ import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 const App = () => {
   // ram = "Jay Kastbhanjan dev"
   // https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=c8116b26eaee4e9cb2bb9ef39e29aa9b
+
+  // // https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=732990b3e58d456280e08c11ae2d5064
   const pageSize = 15;
-  const apiKey = "c8116b26eaee4e9cb2bb9ef39e29aa9b"
+  // const apiKey = "c8116b26eaee4e9cb2bb9ef39e29aa9b"
+  const apiKey = "732990b3e58d456280e08c11ae2d5064"
   // process.env.REACT_APP_NEWS_API;
     return (
       <div>
